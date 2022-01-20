@@ -1,0 +1,26 @@
+{
+  "name": "@channyeintun/selection",
+  "version": "0.0.2",
+  "description": "Selection change event for html input elements is only supported on Firefox.  \r Selection change events of document and html input elements like <input>, <textarea> are seperately supported.",
+  "main": "selection.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/channyeintun/selection.git"
+  },
+  "keywords": [
+    "selectionchange",
+    "selection",
+    "",
+    "event",
+    "text-selection"
+  ],
+  "author": "Chan Nyein Tun <channyeintun@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/channyeintun/selection/issues"
+  },
+  "homepage": "https://github.com/channyeintun/selection#readme"
+}

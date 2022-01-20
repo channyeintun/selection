@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Selection Change Polyfill</title>
+</head>
+
+<body>
+   <input id="mytext" />
+   <button id="btn">Stop()</button>
+   <p id="log"></p>
+   <script src="selection.js"></script>
+   <script>
+      const selpolyfill = new selection();
+      selpolyfill.init();
+      const myInput = document.getElementById('mytext');
+      const stopBtn = document.getElementById('btn');
+      stopBtn.onclick=function(e){
+            selpolyfill.stop();
+      }
+      myInput.addEventListener('selection', function (e) {
+         log.textContent = `You selected ${e.detail.start} to ${e.detail.end}.
+          Direction:${e.detail.direction}`
+         console.log('detail', e.detail);
+      })
+
+   </script>
+</body>
+
+</html>
