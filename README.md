@@ -11,7 +11,7 @@ Check its availability on [caniuse](https://caniuse.com/?search=selectionchange)
 | Event Name | selection |
 | ----------- | ----------- |  
   
-## Installtion
+## Installation
 You can save the file directly or get it from npm  
  
 `
