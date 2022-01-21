@@ -35,5 +35,3 @@ npm i @channyeintun/selection
    </script>
 ```  
 
-## License  
-This is [MIT Licensed](https://github.com/channyeintun/selection/blob/main/LICENSE).
